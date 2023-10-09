@@ -80,7 +80,7 @@ public class ChatWindow extends JFrame {
         fieldChat = new JTextArea();
         fieldChat.setEditable(false);
         JList<String> listUser = new JList<>();
-        String users[] = { "Anya", "Katya", "Misha", "Ivan", "Oleg" };
+        String users[] = { "Ann", "Ivan", "Oleg" };
         listUser.setListData(users);
         panelMid.add(fieldChat);
         panelMid.add(listUser);
